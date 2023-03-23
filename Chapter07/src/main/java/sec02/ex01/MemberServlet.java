@@ -1,4 +1,4 @@
-package sec01.ex01;
+package sec02.ex01;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -15,7 +15,7 @@ import javax.servlet.http.HttpServletResponse;
  * Servlet implementation class MemberServlet
  */
 
-@WebServlet("/Member")
+@WebServlet("/Member2")
 public class MemberServlet extends HttpServlet {
 	/**
 	 * 
