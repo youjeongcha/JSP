@@ -115,8 +115,8 @@ public class MemberDAO {
 		{
 			con = dataFactory.getConnection();
 			
-			String query = "delete from t_member1" +  "where id=?";
-			System.out.println("prepareStatement : " + query);
+			String query = "delete from t_member1" +  " where id=?";
+			System.out.println("prepareStatememt : " + query);
 			pstmt = con.prepareStatement(query);
 			pstmt.setString(1,  id);
 			pstmt.executeUpdate();

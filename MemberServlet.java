@@ -94,7 +94,7 @@ public class MemberServlet extends HttpServlet {
 			Date joinDate = memberVO.getJoinDate();
 			out.print("<tr><td>" + id + "</td><td>" 
 			+ pwd + "</td><td>" + name + "</td><td>" 
-			+ email + "</td><td>" + joinDate + "</td></tr>"
+			+ email + "</td><td>" + joinDate + "</td><td>"
 			+ "<a href='/Chapter07/member4?command=delMember&id=" + id + "'>삭제 </a></td></tr>");
 		}
 		out.print("</table></body></html>");
