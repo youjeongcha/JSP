@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * Servlet implementation class LoginServlet
  */
-@WebServlet("/login2")
+@WebServlet("/login2") //이거 땜시인가 싶어서 오류 테스트
 public class LoginServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
